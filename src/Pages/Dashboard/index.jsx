@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import Navbar from "../../Components/Navbar";
-import video from "../../Assests/48sloanesquare.mp4";
 import Section from "../../Components/Section";
 import img from "../../Assests/img1.jpg";
 import cover from "../../Assests/cover.jpeg";
@@ -74,7 +73,7 @@ const Dashboard = () => {
       />
       <video
         className="bg-vid"
-        src={video}
+        src="https://48sloanesquare.com/wp-content/video/48sloanesquare.mp4"
         controls="controls"
         autoplay="true"
       />
